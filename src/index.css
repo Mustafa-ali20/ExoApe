@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: 'TWKLausanne300';
+  src: url('/fonts/TWKLausanne-300.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TWKLausanne400';
+  src: url('/fonts/TWKLausanne-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TWKLausanne500';
+  src: url('/fonts/TWKLausanne-500.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
